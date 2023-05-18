@@ -1,11 +1,11 @@
 // s c r i p t  o r i  b y  aldi lesmana🔭
-// ditulis ulang oleh ZYKO MD
+// ditulis ulang oleh John Bot
 // credits, jangan dihapus atau diubah!
 
 // - - thanks to - -
 // • allah swt
 // • wh mods dev
-// • ZYKO MD 
+// • John Bot 
 // • dll
 
 //[!] jangan lupa ganti ownernya
@@ -17,14 +17,14 @@ import moment from 'moment-timezone'
 import { group } from 'console'
 import PhoneNumber from 'awesome-phonenumber'
 /*============= WAKTU =============*/
-let wibh = moment.tz('Asia/Jakarta').format('HH')
-    let wib = moment.tz('Asia/Jakarta').format('HH:mm:ss')
-    let wibm = moment.tz('Asia/Jakarta').format('mm')
-    let wibs = moment.tz('Asia/Jakarta').format('ss')
+let wibh = moment.tz('Asia/Istanbul').format('HH')
+    let wib = moment.tz('Asia/Istanbul').format('HH:mm:ss')
+    let wibm = moment.tz('Asia/Istanbul').format('mm')
+    let wibs = moment.tz('Asia/Istanbul').format('ss')
     let wktuwib = `${wibh} H ${wibm} M ${wibs} S`
     
     let d = new Date(new Date + 3600000)
-    let locale = 'id'
+    let locale = 'tr'
     // d.getTimeZoneOffset()
     // Offset -420 is 18.00
     // Offset    0 is  0.00 
@@ -44,15 +44,15 @@ const readMore = more.repeat(4001)
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
 
-global.sgh = 'https://github.com/ZykoBotz-MD' // github
+global.sgh = 'https://github.com/javinkurt' // github
 global.sgc = 'https://chat.whatsapp.com/INq67rkTp8iAwiVvLOFAYH' // group whatsapp
 global.sdc = 'https://www.discord.com'//discord
-global.snh = 'https://youtu.be/E1Cb97Rb-8U' // my youtube channel
+global.snh = 'https://youtu.be/@javin.sensei' // my youtube channel
 global.sfb = 'https://www.facebook.com/' // facebook
-global.syt = 'https://www.youtube.com/@ZykoBotzMD'
-global.tik = 'https://www.tiktok.com/@zykosiapa' 
-global.tautanwa = 'https://wa.me/message/CXI3LHFLC6NON1'
-global.wame = 'https://wa.me/message/CXI3LHFLC6NON1' // kalau gk punya bisa ganti pake gini wa.me/6283133329293
+global.syt = 'https://www.youtube.com/@javin.sensei'
+global.tik = 'https://www.tiktok.com/@j' 
+global.tautanwa = 'https://wa.me/905549914611'
+global.wame = 'https://wa.me/905549914611' // Elinizde yoksa, Gini'yi kullanarak değiştirebilirsiniz wa.me/905549914611
 
 /*============== PAYMENT ==============*/
 global.pdana = '0852 1264 9276' //dana
@@ -64,30 +64,30 @@ global.ppulsa2 = '0831 3332 9293' // kalau ada kartu lain isi aja
 global.psaweria = '-'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6282124690625'
-global.nomorown = '6283133329293'
-global.nomorown1 = '6283133329293' //pake No Pacar lo Juga Boleh
+global.nomorbot = '905549914611'
+global.nomorown = '905549914611'
+global.nomorown1 = '905549914611' //Kız arkadaşını kullanarak hayır da yapabilir 
 global.namebot = 'ZYKOBOTZ MD'
-global.nameown = 'ZYKO MD'
+global.nameown = 'John Bot'
 global.nameown1 = 'LISA AMELIA' //Pake Nama Pacar Lo Juga Boleh
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ INFO BIO DATA OWN ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.sig = '📷 ɪɴsᴛᴀɢʀᴀᴍ : https://instagram.com/kabulsaputra21' // ig lo
+global.sig = '📷 ɪɴsᴛᴀɢʀᴀᴍ : https://instagram.com/javin.sensei' // ig lo
 global.sigpcr = '📷 ɪɴsᴛᴀɢʀᴀᴍ : https://instagram.com/lisaamelia8680' // ig cewek lo
 /*============== Github Thanks To ==============*/
-global.namagithub = 'Nama Github Belum Diisi' // nama github lu
-global.linkgithub = 'Link Githu Belum Diisi' // tarok link github lu
+global.namagithub = 'Github Adı Doldurulmadı' // nama github lu
+global.linkgithub = 'Githu bağlantısı doldurulmadı' // tarok link github lu
 
 // klau kgk ada github kasih tanda '-' aja biar kgk error
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6283133329293', 'ZYKO MD', true],
+  ['905549914611', 'John Bot', true],
   ['-', 'ISI KALAU ADA', true],
   ['-', 'ISI KALAU ADA', true],
   ['-', 'ISI KALAU ADA', true],
   ['-', 'ISI KALAU ADA', true]
-//Ganti jd nomormu sama Namamu
+//jd numaranızı Adınızla değiştirin 
 ] 
 global.mods = [] 
 global.prems = [] 
@@ -100,7 +100,7 @@ global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘ZYKOBOTZ MD ˘ฅ ꒱ ‧₊˚꒷
 global.wm3 = '⫹⫺ ZYKOBOTZ MD '
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `T I M E : ${wktuwib}`
-global.titlebot = `⫹⫺ WhatsApp Bot | By ZYKO MD`
+global.titlebot = `⫹⫺ WhatsApp Bot | By John Bot`
 global.packname = '☂︎ ᴄʀᴇᴀᴛᴇᴅ ʙʏ'
 global.author = '              「 ZYKOBOTZ MD  あ」'
 global.week = `${week} ${date}`
@@ -109,7 +109,7 @@ global.danied = pickRandom(["✘ 𝗘𝗿𝗼𝗿 𝟰𝟬𝟰","𝘼𝙠𝙨�
 
 /*============== STICKER WM ==============*/
 global.stickpack = 'ZYKOBOTZ MD'
-global.stickauth = `By ©ZYKO MD`
+global.stickauth = `By ©John Bot`
  
 /*============== LOGO ==============*/
 global.fotonya1 = 'https://telegra.ph/file/bd078351110aaaaf3aa59.jpg' 
@@ -141,13 +141,13 @@ global.dmenut = 'ଓ═┅═━–〈' //top
 global.dmenub = '┊↬' //body
 global.dmenub2 = '┊' //body for info cmd on Default menu
 global.dmenuf = '┗––––––––––✦' //footer
-global.dashmenu = pickRandom(["┅═┅═❏ *DASHBOARD* ❏═┅═┅", "☰ *D A S B O A R D* ☰"])
+global.dashmenu = pickRandom(["┅═┅═❏ *TABLO* ❏═┅═┅", "☰ *T A B L O* ☰"])
 global.cmenut = '❏––––––『' //top
 global.cmenuh = '』––––––' //header
 global.cmenub = '┊✦ ' //body
 global.cmenuf = '┗━═┅═━––––––๑\n' //footer
 global.cmenua = '\n⌕ ❙❘❙❙❘❙❚❙❘❙❙❚❙❘❙❘❙❚❙❘❙❙❚❙❘❙❙❘❙❚❙❘ ⌕\n     '
-global.pmenus = pickRandom(["◈", "➭", "ଓ", "⟆•", "⳻⳻", "•", "↬", "◈▻", "⭑", "ᯬ", "◉", "᭻", "»", "〆", "々", "⛥", "✗", "⚜", "♪"]) //pembatas menu selector
+global.pmenus = pickRandom(["◈", "➭", "ଓ", "⟆•", "⳻⳻", "•", "↬", "◈▻", "⭑", "ᯬ", "◉", "᭻", "»", "〆", "々", "⛥", "✗", "⚜", "♪"]) //Menü Seçici Sınırlayıcı
 global.htki = '––––––『' // Hiasan Titile (KIRI)
 global.htka = '』––––––' // Hiasan Title  (KANAN)
 global.lopr = pickRandom(["Ⓟ", "🅟"]) //LOGO PREMIUM ON MENU.JS
@@ -156,16 +156,16 @@ global.htjava = pickRandom(["⛶", "❏", "⫹⫺", "☰", "⎔", "✦", "⭔", 
 global.hsquere = ['⛶','❏','⫹⫺']
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ RESPOND ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.stiker_wait = '▰▰▰▰▰▰▱▱ 98% 𝚠𝚊𝚒𝚝!!'
-global.wait = '▰▰▰▰▰▰▱▱ 98% 𝚠𝚊𝚒𝚝!!'
-global.md = pickRandom(["_In progress, please wait..._", "Proses", "Tunggu Sebentar"])
-global.eror = 'Mohon Maaf Server Kami Sedang Error!'
+global.stiker_wait = '▰▰▰▰▰▰▱▱ 98% Bᴇᴋʟᴇ!!'
+global.wait = '▰▰▰▰▰▰▱▱ 98% Bᴇᴋʟᴇ!!'
+global.md = pickRandom(["_Devam ediyor, lütfen bekleyin..._", "İşlem yapılıyor bekle..", "Bir dakika bekle"])
+global.eror = 'Üzgünüz, sunucumuz hata yapıyor!'
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ RESPOND GEME ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
-global.benar = '𝙶𝚘𝚘𝚍 𝙹𝚘𝚋𝚋! ◕◡◕'
-global.salah = '𝙽𝚘𝚝 𝙱𝚊𝚍! ◕◠◕'
-global.dikit = "𝙳𝚒𝚔𝚒𝚝 𝙻𝚊𝚐𝚒,𝚂𝚎𝚖𝚊𝚗𝚐𝚊𝚝!!"
+global.benar = 'Gᴜ̈ᴢᴇʟ ɪş! ◕◡◕'
+global.salah = 'Yᴀɴʟış.. 🙂! ◕◠◕'
+global.dikit = "Bɪʀᴀᴢ ᴅᴀʜᴀ ғᴀᴢʟᴀsı, Rᴜʜʜʜ!!"
 
 
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ Emot ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
@@ -849,7 +849,7 @@ global.hoppai = ['https://telegra.ph/file/f34d76df4a2065af1a5ba.jpg','https://te
 
 global.flaaa = fla
 global.dtu = 'ɪɴꜱᴛᴀɢʀᴀᴍ'
-global.urlnya = "https://www.instagram.com/kabulsaputra21"
+global.urlnya = "https://www.instagram.com/javin.sensei"
 global.dtc = 'ᴄᴀʟʟ ᴏᴡɴᴇʀ'
 global.phn = '0831-3332-9293'
 //⫹⫺ ╳╶╼╶╶╶╶┈ ⎝ JNGN DI UBAH ⎞ ┈╴╴╴╴╾╴╳ ⫹⫺
